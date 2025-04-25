@@ -1,5 +1,5 @@
 
-let temperature = 25;
+let temperature = prompt("please enter temp");
 if (temperature >= 30) {
     alert("هوا گرم است!");
 } else if (temperature <= 30 && temperature >= 10) {
